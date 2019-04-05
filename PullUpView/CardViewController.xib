@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardViewController" customModule="PullUpView" customModuleProvider="target">
             <connections>
+                <outlet property="cardViewTitleLbl" destination="yrv-xF-tV8" id="LL7-9T-xqf"/>
                 <outlet property="handleArea" destination="smP-yh-23S" id="cd8-in-cLz"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -23,6 +24,20 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ejB-XB-kPO">
                     <rect key="frame" x="0.0" y="67" width="375" height="620"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Order" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrv-xF-tV8">
+                            <rect key="frame" x="123" y="17" width="129" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6Pg-L0-CER">
+                            <rect key="frame" x="22" y="80" width="331" height="461"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                    </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="smP-yh-23S">
@@ -45,7 +60,6 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="ejB-XB-kPO" firstAttribute="top" secondItem="smP-yh-23S" secondAttribute="bottom" id="84X-Gf-oWu"/>
-                <constraint firstItem="ejB-XB-kPO" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="CHi-Io-FaA"/>
                 <constraint firstItem="smP-yh-23S" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="DUV-pi-SYq"/>
                 <constraint firstItem="smP-yh-23S" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="OyR-TX-5wK"/>
                 <constraint firstItem="ejB-XB-kPO" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" constant="20" id="QhV-dT-Cpu"/>

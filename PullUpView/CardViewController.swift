@@ -17,6 +17,7 @@ class CardViewController: UIViewController {
             self.handleArea.backgroundColor = UIColor.lightGray
         }
     }
+    @IBOutlet weak var cardViewTitleLbl: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

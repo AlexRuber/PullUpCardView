@@ -14,6 +14,8 @@
 		9CAC47B22256E0F5000F5B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CAC47B02256E0F5000F5B50 /* LaunchScreen.storyboard */; };
 		9CAC47BD2256E0F5000F5B50 /* PullUpViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC47BC2256E0F5000F5B50 /* PullUpViewTests.swift */; };
 		9CAC47C82256E0F5000F5B50 /* PullUpViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC47C72256E0F5000F5B50 /* PullUpViewUITests.swift */; };
+		9CAC47D72256E1C0000F5B50 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAC47D52256E1C0000F5B50 /* CardViewController.swift */; };
+		9CAC47D82256E1C0000F5B50 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CAC47D62256E1C0000F5B50 /* CardViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9CAC47C32256E0F5000F5B50 /* PullUpViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullUpViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CAC47C72256E0F5000F5B50 /* PullUpViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullUpViewUITests.swift; sourceTree = "<group>"; };
 		9CAC47C92256E0F5000F5B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CAC47D52256E1C0000F5B50 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		9CAC47D62256E1C0000F5B50 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				9CAC47AE2256E0F5000F5B50 /* Assets.xcassets */,
 				9CAC47B02256E0F5000F5B50 /* LaunchScreen.storyboard */,
 				9CAC47B32256E0F5000F5B50 /* Info.plist */,
+				9CAC47D52256E1C0000F5B50 /* CardViewController.swift */,
+				9CAC47D62256E1C0000F5B50 /* CardViewController.xib */,
 			);
 			path = PullUpView;
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CAC47D82256E1C0000F5B50 /* CardViewController.xib in Resources */,
 				9CAC47B22256E0F5000F5B50 /* LaunchScreen.storyboard in Resources */,
 				9CAC47AF2256E0F5000F5B50 /* Assets.xcassets in Resources */,
 				9CAC47AD2256E0EB000F5B50 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			files = (
 				9CAC47AA2256E0EB000F5B50 /* ViewController.swift in Sources */,
 				9CAC47A82256E0EB000F5B50 /* AppDelegate.swift in Sources */,
+				9CAC47D72256E1C0000F5B50 /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSX523G48J;
 				INFOPLIST_FILE = PullUpView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSX523G48J;
 				INFOPLIST_FILE = PullUpView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

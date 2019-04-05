@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardViewController" customModule="PullUpView" customModuleProvider="target">
+            <connections>
+                <outlet property="handleArea" destination="smP-yh-23S" id="cd8-in-cLz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ejB-XB-kPO">
+                    <rect key="frame" x="0.0" y="67" width="375" height="620"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="smP-yh-23S">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a87-qG-vy9">
+                            <rect key="frame" x="142" y="29" width="90" height="8"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.83617364897011481" green="0.83617364897011481" blue="0.83617364897011481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="a87-qG-vy9" firstAttribute="top" secondItem="smP-yh-23S" secondAttribute="top" constant="29" id="0Gr-Mg-5DY"/>
+                        <constraint firstItem="a87-qG-vy9" firstAttribute="leading" secondItem="smP-yh-23S" secondAttribute="leading" constant="142" id="TGl-IS-yF7"/>
+                        <constraint firstItem="a87-qG-vy9" firstAttribute="centerY" secondItem="smP-yh-23S" secondAttribute="centerY" id="hLl-Gy-6al"/>
+                        <constraint firstItem="a87-qG-vy9" firstAttribute="centerX" secondItem="smP-yh-23S" secondAttribute="centerX" id="iOR-FQ-mxs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ejB-XB-kPO" firstAttribute="top" secondItem="smP-yh-23S" secondAttribute="bottom" id="84X-Gf-oWu"/>
+                <constraint firstItem="ejB-XB-kPO" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="CHi-Io-FaA"/>
+                <constraint firstItem="smP-yh-23S" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="DUV-pi-SYq"/>
+                <constraint firstItem="smP-yh-23S" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="OyR-TX-5wK"/>
+                <constraint firstItem="ejB-XB-kPO" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" constant="20" id="QhV-dT-Cpu"/>
+                <constraint firstItem="ejB-XB-kPO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="j3E-Y6-lFe"/>
+                <constraint firstItem="ejB-XB-kPO" firstAttribute="top" secondItem="smP-yh-23S" secondAttribute="bottom" id="kLu-mF-10Z"/>
+                <constraint firstItem="smP-yh-23S" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="uqu-Qg-Nig"/>
+                <constraint firstItem="ejB-XB-kPO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="67" id="vhc-c5-bLQ"/>
+                <constraint firstItem="ejB-XB-kPO" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="vpx-jG-QGV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-46.5" y="-1.5"/>
+        </view>
+    </objects>
+</document>
